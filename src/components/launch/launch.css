@@ -1,0 +1,10 @@
+.rocket-landing {
+  background: linear-gradient(45deg, #e9e4f0, #d3cce3);
+  height: 100vh;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: #eee;
+}

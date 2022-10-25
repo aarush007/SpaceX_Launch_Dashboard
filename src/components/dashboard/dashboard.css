@@ -1,0 +1,26 @@
+.brand-feature {
+  background: url("../../assets/launches_header_desktop.jpg") no-repeat center
+    center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand-feature a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 70px;
+  color: #fff;
+  padding-left: 10px;
+  border-left: 5px solid #eee;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .brand-feature {
+    height: 100%;
+    padding: 2rem 0;
+  }
+}
